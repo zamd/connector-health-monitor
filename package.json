@@ -1,0 +1,35 @@
+{
+  "name": "connector-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "react-scripts": "0.8.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "react": "^15.4.1",
+    "react-data-grid": "^1.0.71",
+    "react-dom": "^15.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "server": "babel-node --presets latest ./server/index.js"
+  },
+  "proxy": "http://localhost:3001/",
+  "description": "health monitor extension",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zamd/connector-health-monitor.git"
+  },
+  "author": "zulfiqar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zamd/connector-health-monitor/issues"
+  },
+  "homepage": "https://github.com/zamd/connector-health-monitor#readme"
+}

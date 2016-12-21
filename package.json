@@ -7,13 +7,18 @@
     "react-scripts": "0.8.1"
   },
   "dependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-polyfill": "^6.20.0",
     "body-parser": "^1.15.2",
     "react": "^15.4.1",
     "react-data-grid": "^1.0.71",
-    "react-dom": "^15.4.1"
+    "react-dom": "^15.4.1",
+    "request-promise": "^4.1.1",
+    "webtask-tools": "^3.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm run server & react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",

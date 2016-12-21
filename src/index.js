@@ -5,11 +5,16 @@ import './index.css';
 
 const viewModel = {
   setup: {
-    completed: true
+    completed: false
   }
 }
 
-ReactDOM.render(
-  <App setup={viewModel.setup} />,
-  document.getElementById('root')
-);
+fetch('/api/dbsize').then(response=>
+response.json().then(db=>{
+  viewModel.setup.completed = db.sizeInBytes>20
+  ReactDOM.render(
+    <App setup={viewModel.setup} />,
+    document.getElementById('root')
+  );
+  }
+));

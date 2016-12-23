@@ -1,6 +1,6 @@
 
 module.exports = {
-  entry: ['babel-polyfill','./server/index.js'],
+  entry: ['./server/index.js'],
   output: {
     filename:'bundle.js',
     path: './dist',
@@ -8,7 +8,10 @@ module.exports = {
   },
   module: {
     loaders: [
-      {loader: 'babel'}
+      {
+        test: /\.js$/,
+        loader: 'babel'
+      }
     ]
   },
   externals: [
@@ -16,6 +19,9 @@ module.exports = {
     ,{"express": "express"}
     ,{"body-parser": "body-parser"}
     ,{"webtask-tools": "webtask-tools"}
+    ,{"auth0-extension-tools": "auth0-extension-tools"}
     ,{"url": "url"}
+    ,{"fs": "fs"}
+    ,{"babel-runtime": "babel-runtime"}
   ]
 }

@@ -13,7 +13,7 @@ const Logs = (props) => (
           </thead>
           <tbody>
             {props.events.map((e,i)=>
-              <Message key= {i} eventType={e.eventType} description={e.message} date={e.date}/>
+              <Message key={i} eventType={e.eventType} description={e.message} date={e.date}/>
             )}
           </tbody>
       </table>

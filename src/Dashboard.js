@@ -16,7 +16,7 @@ const Dashboard = (props) => (
                 <option value="debug">Debug</option>
       </select>
 
-    <Logs events= {props.events}/>
+    <Logs events={props.events}/>
   </div>
 )
 

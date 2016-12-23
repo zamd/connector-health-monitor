@@ -1,68 +1,41 @@
 import express from 'express';
+import bodyParser from 'body-parser';
 import getStore from './../lib/store';
 
 const logsRouter = express.Router();
 
-const maxSize = 1000;
+logsRouter.use(bodyParser.json());
 
-
-
-function appendLog(events, storage){
-  storage.get((err, data) => {
-    if (!err){
-
-      let db = data || {logs: [], config:{provisioned:false}};
-      if (events && events.length>0) {
-        console.log(events.length);
-        db.logs = db.logs.concat(events);
-        //Cap to maxSize...
-        db.logs = db.logs.slice(db.logs.length - maxSize);
-
-        storage.set(db,err=>{
-          if (err)
-            console.log(err);
-          else console.log(`saved...`);
-        });
-      }
-    }
+logsRouter.post('/', (req,res) => {
+  getStore(req).then( async (db)=> {
+    await db.create('logs', {events: req.body} );
+    res.send('ok');
   });
-}
-
-logsRouter.post('/logs', (req,res) =>{
-  let store = getStore(req);
-  console.log(`appending...`);
-  appendLog(req.body, store);
-  res.send('ok');
 });
 
-logsRouter.delete('/logs',(req,res)=> {
-    let store = getStore(req);
-    store.get((err, db) => {
-      //TOOD error handling...
-      db.logs = [];
-      store.set(db,err=>{
-        if (err)
-          console.log(err);
-        else console.log(`saved...`);
-      });
-      res.status(200).end();
+logsRouter.delete('/',(req,res)=> {
+  getStore(req).then( async (db)=> {
+    let logs = await db.getAll('logs');
+    logs.forEach(async (l)=> await db.delete('logs',l._id));
+    res.send('ok');
+  });
+});
+
+logsRouter.get('/',(req,res)=> {
+    getStore(req).then( async (db) => {
+      try {
+        let logs = await db.getAll('logs');
+        if (logs.length===0)
+          return res.json([]);
+        // flatten...
+        let entries = logs.map(l=>l.events).reduce((a,b)=>a.concat(b));
+        res.json(entries);
+      }catch(e){
+        console.log(e);
+      }
     });
   }
 );
 
-logsRouter.get('/logs',(req,res)=> {
-    getStore(req).get((err, data) => {
-      res.json(data.logs);
-    });
-  }
-);
-
-logsRouter.get('/dbsize',(req,res)=> {
-    let store = getStore(req);
-    store.get((err, db) => {
-      res.json({sizeInBytes: JSON.stringify(db).length });
-    });
-  }
-);
 
 export default logsRouter;

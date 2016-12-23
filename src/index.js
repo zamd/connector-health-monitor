@@ -9,9 +9,9 @@ const viewModel = {
   }
 }
 
-fetch('/api/dbsize').then(response=>
-response.json().then(db=>{
-  viewModel.setup.completed = db.sizeInBytes>20
+fetch('api/agent/status').then(response=>
+response.json().then(r=>{
+  viewModel.setup.completed = r.configured
   ReactDOM.render(
     <App setup={viewModel.setup} />,
     document.getElementById('root')

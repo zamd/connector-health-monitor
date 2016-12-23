@@ -1,9 +1,10 @@
-import MockStorage from './MockStorage';
+import tools from 'auth0-extension-tools';
 
-const memoryStorage = new MockStorage();
+async function getStore(req) {
+  let storageProvider = req.webtaskContext ? new tools.WebtaskStorageContext(req.webtaskContext.storage) :
+                                             new tools.FileStorageContext('./db.json');
 
-function getStore(req){
-  return req.webtaskContext ? req.webtaskContext.storage : memoryStorage;
+  return new tools.BlobRecordProvider(storageProvider);
 }
 
 export default getStore;

@@ -7,10 +7,13 @@
     "react-scripts": "0.8.1"
   },
   "dependencies": {
+    "auth0-extension-tools": "^1.0.0",
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
     "babel-polyfill": "^6.20.0",
     "body-parser": "^1.15.2",
+    "html-loader": "^0.4.4",
+    "lodash": "^4.17.2",
     "react": "^15.4.1",
     "react-data-grid": "^1.0.71",
     "react-dom": "^15.4.1",
@@ -18,11 +21,13 @@
     "webtask-tools": "^3.1.1"
   },
   "scripts": {
-    "start": "npm run server & react-scripts start",
+    "start": "react-scripts start",
+    "start2": "npm run server & react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "server": "babel-node --presets latest ./server/index.js"
+    "server": "babel-node --presets latest ./server/index.js",
+    "size": "webpack -p --config ./build/webtask/webpack.config.js --json > ./build/webtask/bundle-size.json && node ./build/webtask/bundle-size.js"
   },
   "proxy": "http://localhost:3001/",
   "description": "health monitor extension",

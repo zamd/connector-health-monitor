@@ -1,0 +1,515 @@
+{
+  "logs": [
+    {
+      "events": [
+        {
+          "eventType": "debug",
+          "message": "Local settings updated.",
+          "date": "2016-07-15T06:24:21.276Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Generating a self-signed certificate.",
+          "date": "2016-07-15T06:24:21.279Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Certificate generated.",
+          "date": "2016-07-15T06:24:21.906Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Configuring connection bccoss.",
+          "date": "2016-07-15T06:24:21.908Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "> Posting certificates and signInEndpoint: http://fedbox:49310/wsfed",
+          "date": "2016-07-15T06:24:21.908Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Connection bccoss configured.",
+          "date": "2016-07-15T06:24:23.682Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Connector setup complete.",
+          "date": "2016-07-15T06:24:23.682Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Cache enabled",
+          "date": "2016-07-15T06:24:23.956Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Connecting to wss://zamd.au.auth0.com/lo/hub.",
+          "date": "2016-07-15T06:24:23.965Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "auth0: Agent accepted.",
+          "date": "2016-07-15T06:24:25.829Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "latency test took avg: 1433.38 ms, max: 1488.76 ms, min: 1388.08 ms",
+          "date": "2016-07-15T06:24:38.295Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Got SIGTERM, exiting now.",
+          "date": "2016-07-15T08:46:23.425Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "auth0: Connection closed as requested.",
+          "date": "2016-07-15T08:46:23.800Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Loading settings from ticket: https://zamd.au.auth0.com/p/ad/yVwiDoZU/info",
+          "date": "2016-07-15T08:46:41.082Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Local settings updated.",
+          "date": "2016-07-15T08:46:42.586Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Certificates already exist, skipping certificate generation.",
+          "date": "2016-07-15T08:46:42.586Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Configuring connection bccoss.",
+          "date": "2016-07-15T08:46:42.586Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "> Posting certificates and signInEndpoint: http://fedbox:49310/wsfed",
+          "date": "2016-07-15T08:46:42.586Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Connection bccoss configured.",
+          "date": "2016-07-15T08:46:44.363Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Connector setup complete.",
+          "date": "2016-07-15T08:46:44.363Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Cache enabled",
+          "date": "2016-07-15T08:46:44.685Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Connecting to wss://zamd.au.auth0.com/lo/hub.",
+          "date": "2016-07-15T08:46:44.700Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "auth0: Agent accepted.",
+          "date": "2016-07-15T08:46:46.570Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "latency test took avg: 1452.84 ms, max: 1508.43 ms, min: 1385.89 ms",
+          "date": "2016-07-15T08:46:59.226Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "auth0: Connection closed.",
+          "date": "2016-07-15T08:49:48.491Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Loading settings from ticket: https://zamd.au.auth0.com/p/ad/yVwiDoZU/info",
+          "date": "2016-07-15T08:50:36.417Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Local settings updated.",
+          "date": "2016-07-15T08:50:37.843Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Certificates already exist, skipping certificate generation.",
+          "date": "2016-07-15T08:50:37.843Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Configuring connection bccoss.",
+          "date": "2016-07-15T08:50:37.859Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "> Posting certificates and signInEndpoint: http://fedbox:49310/wsfed",
+          "date": "2016-07-15T08:50:37.859Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Connection bccoss configured.",
+          "date": "2016-07-15T08:50:39.783Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Connector setup complete.",
+          "date": "2016-07-15T08:50:39.783Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Cache enabled",
+          "date": "2016-07-15T08:50:40.084Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Connecting to wss://zamd.au.auth0.com/lo/hub.",
+          "date": "2016-07-15T08:50:40.100Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "auth0: Agent accepted.",
+          "date": "2016-07-15T08:50:41.895Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "auth0: Connection closed.",
+          "date": "2016-07-15T08:51:30.827Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Loading settings from ticket: https://zamd.au.auth0.com/p/ad/yVwiDoZU/info",
+          "date": "2016-07-15T08:52:02.320Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Local settings updated.",
+          "date": "2016-07-15T08:52:03.837Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Certificates already exist, skipping certificate generation.",
+          "date": "2016-07-15T08:52:03.840Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Configuring connection bccoss.",
+          "date": "2016-07-15T08:52:03.841Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "> Posting certificates and signInEndpoint: http://fedbox:49310/wsfed",
+          "date": "2016-07-15T08:52:03.842Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Connection bccoss configured.",
+          "date": "2016-07-15T08:52:05.657Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Connector setup complete.",
+          "date": "2016-07-15T08:52:05.658Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Cache enabled",
+          "date": "2016-07-15T08:52:05.986Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Connecting to wss://zamd.au.auth0.com/lo/hub.",
+          "date": "2016-07-15T08:52:05.999Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "auth0: Agent accepted.",
+          "date": "2016-07-15T08:52:23.394Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "latency test took avg: 2991.39 ms, max: 16658.92 ms, min: 1388.25 ms",
+          "date": "2016-07-15T08:52:35.915Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "user jon: Starting authentication attempt.",
+          "date": "2016-07-15T10:23:25.387Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "auth0: Connection closed.",
+          "date": "2016-07-15T10:23:25.398Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "user jon: Bind with DN \"CN=jon,CN=Users,DC=bccoss,DC=com\"",
+          "date": "2016-07-15T10:23:25.405Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "user jon: Bind OK.",
+          "date": "2016-07-15T10:23:25.413Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "user jon: Enrich profile.",
+          "date": "2016-07-15T10:23:25.413Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "user jon: Enrich profile OK.",
+          "date": "2016-07-15T10:23:25.731Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "user jon: Authentication succeeded.",
+          "date": "2016-07-15T10:23:25.731Z"
+        },
+        {
+          "eventType": "error",
+          "message": "",
+          "date": "2016-07-15T10:23:25.746Z"
+        },
+        {
+          "eventType": "error",
+          "message": "Error: not opened\n    at WebSocket.send (C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\node_modules\\ws\\lib\\WebSocket.js:218:16)\n    at WebSocket.ws.sendEvent (C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\ws_validator.js:32:8)\n    at C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\ws_validator.js:186:10\n    at C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\lib\\users.js:103:16\n    at C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\lib\\users.js:285:7\n    at C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\node_modules\\async\\lib\\async.js:232:13\n    at C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\node_modules\\async\\lib\\async.js:119:25\n    at C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\node_modules\\async\\lib\\async.js:24:16\n    at C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\node_modules\\async\\lib\\async.js:229:17\n    at C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\node_modules\\async\\lib\\async.js:516:34",
+          "date": "2016-07-15T10:23:25.746Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Loading settings from ticket: https://zamd.au.auth0.com/p/ad/yVwiDoZU/info",
+          "date": "2016-07-15T10:23:36.534Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Local settings updated.",
+          "date": "2016-07-15T10:23:38.049Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Certificates already exist, skipping certificate generation.",
+          "date": "2016-07-15T10:23:38.049Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Configuring connection bccoss.",
+          "date": "2016-07-15T10:23:38.065Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "> Posting certificates and signInEndpoint: http://fedbox:49310/wsfed",
+          "date": "2016-07-15T10:23:38.065Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Connection bccoss configured.",
+          "date": "2016-07-15T10:23:39.841Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Connector setup complete.",
+          "date": "2016-07-15T10:23:39.841Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Cache enabled",
+          "date": "2016-07-15T10:23:40.147Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Connecting to wss://zamd.au.auth0.com/lo/hub.",
+          "date": "2016-07-15T10:23:40.159Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "auth0: Agent accepted.",
+          "date": "2016-07-15T10:23:45.388Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "latency test took avg: 1743.98 ms, max: 4411.07 ms, min: 1384.85 ms",
+          "date": "2016-07-15T10:23:57.596Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "user jon: Starting authentication attempt.",
+          "date": "2016-07-15T10:25:40.068Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "auth0: Connection closed.",
+          "date": "2016-07-15T10:25:40.080Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "user jon: Bind with DN \"CN=jon,CN=Users,DC=bccoss,DC=com\"",
+          "date": "2016-07-15T10:25:40.088Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "user jon: Bind OK.",
+          "date": "2016-07-15T10:25:40.091Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "user jon: Enrich profile.",
+          "date": "2016-07-15T10:25:40.092Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "user jon: Enrich profile OK.",
+          "date": "2016-07-15T10:25:40.171Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "user jon: Authentication succeeded.",
+          "date": "2016-07-15T10:25:40.172Z"
+        },
+        {
+          "eventType": "error",
+          "message": "",
+          "date": "2016-07-15T10:25:40.180Z"
+        },
+        {
+          "eventType": "error",
+          "message": "Error: not opened\n    at WebSocket.send (C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\node_modules\\ws\\lib\\WebSocket.js:218:16)\n    at WebSocket.ws.sendEvent (C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\ws_validator.js:32:8)\n    at C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\ws_validator.js:186:10\n    at C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\lib\\users.js:103:16\n    at C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\lib\\users.js:285:7\n    at C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\node_modules\\async\\lib\\async.js:232:13\n    at C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\node_modules\\async\\lib\\async.js:119:25\n    at C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\node_modules\\async\\lib\\async.js:24:16\n    at C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\node_modules\\async\\lib\\async.js:229:17\n    at C:\\Program Files (x86)\\Auth0\\AD LDAP Connector\\node_modules\\async\\lib\\async.js:516:34",
+          "date": "2016-07-15T10:25:40.181Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Loading settings from ticket: https://zamd.au.auth0.com/p/ad/yVwiDoZU/info",
+          "date": "2016-07-15T10:26:01.922Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Local settings updated.",
+          "date": "2016-07-15T10:26:03.380Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Certificates already exist, skipping certificate generation.",
+          "date": "2016-07-15T10:26:03.380Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Configuring connection bccoss.",
+          "date": "2016-07-15T10:26:03.380Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "> Posting certificates and signInEndpoint: http://fedbox:49310/wsfed",
+          "date": "2016-07-15T10:26:03.380Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Connection bccoss configured.",
+          "date": "2016-07-15T10:26:05.289Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Connector setup complete.",
+          "date": "2016-07-15T10:26:05.305Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Cache enabled",
+          "date": "2016-07-15T10:26:05.631Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Connecting to wss://zamd.au.auth0.com/lo/hub.",
+          "date": "2016-07-15T10:26:05.647Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "auth0: Agent accepted.",
+          "date": "2016-07-15T10:26:07.374Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "user jon: Starting authentication attempt.",
+          "date": "2016-07-15T10:26:15.795Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "user jon: Bind with DN \"CN=jon,CN=Users,DC=bccoss,DC=com\"",
+          "date": "2016-07-15T10:26:15.795Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "user jon: Bind OK.",
+          "date": "2016-07-15T10:26:15.795Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "user jon: Enrich profile.",
+          "date": "2016-07-15T10:26:15.795Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "user jon: Enrich profile OK.",
+          "date": "2016-07-15T10:26:15.826Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "user jon: Authentication succeeded.",
+          "date": "2016-07-15T10:26:15.826Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "latency test took avg: 1450.14 ms, max: 1510.84 ms, min: 1378.61 ms",
+          "date": "2016-07-15T10:26:20.139Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "auth0: Connection closed.",
+          "date": "2016-07-15T14:16:56.927Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Loading settings from ticket: https://zamd.au.auth0.com/p/ad/yVwiDoZU/info",
+          "date": "2016-08-08T14:09:18.841Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Unexpected error while configuring connection: ENOTFOUND",
+          "date": "2016-08-08T14:09:30.880Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "getaddrinfo ENOTFOUND",
+          "date": "2016-08-08T14:09:30.880Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Loading settings from ticket: https://zamd.au.auth0.com/p/ad/yVwiDoZU/info",
+          "date": "2016-08-08T14:09:32.084Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Local settings updated.",
+          "date": "2016-08-08T14:09:34.115Z"
+        },
+        {
+          "eventType": "debug",
+          "message": "Certificates already exist, skipping certificate generation.",
+          "date": "2016-08-08T14:09:34.162Z"
+        }
+      ],
+      "_id": "0e244d40-c4f8-4d88-aaf8-dfcaa002247a"
+    }
+  ],
+  "config": [
+    {
+      "_id": "bc7edf9b-9d91-430f-ad1d-ac425f9c30d1",
+      "provisioned": true
+    }
+  ]
+}

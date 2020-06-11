@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "author": "auth0",
   "type": "application",
-  "codeUrl": "https://051b3fd9.ngrok.io/dist/bundle.js",
+  "codeUrl": "https://5c674693a6ae.ngrok.io/build/bundle.js",
   "initialUrlPath": "/login",
   "keywords": [
     "auth0",
